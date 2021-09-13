@@ -1,4 +1,5 @@
-﻿using Common.Models;
+﻿using Common.DTOS;
+using Common.Models;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -8,16 +9,16 @@ namespace Common
 {
     public interface ITerminService
     {
-        Task<Termin> CreateUser(Termin usr);
+        Task<Termin> CreateUser(TerminDTO usr);
 
         Task<IEnumerable<Termin>> GetAll();
 
         Task<IEnumerable<string>> GetAllIds();
 
-        Task<bool> validateUser(string id);
-
         Task<Termin> GetUserId(string id);
 
         Task<IEnumerable<string>> GetAllTeamIds();
+
+        Task<bool> RemoveTermin(int v);
     }
 }

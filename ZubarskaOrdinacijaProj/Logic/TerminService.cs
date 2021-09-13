@@ -1,4 +1,5 @@
 ﻿using Common;
+using Common.DTOS;
 using Common.Models;
 using System;
 using System.Collections.Generic;
@@ -16,7 +17,7 @@ namespace Logic
             this.userrepo = repo;
         }
 
-        public Task<Termin> CreateUser(Termin usr)
+        public Task<Termin> CreateUser(TerminDTO usr)
         {
             throw new NotImplementedException();
         }
@@ -39,6 +40,20 @@ namespace Logic
         public Task<Termin> GetUserId(string id)
         {
             throw new NotImplementedException();
+        }
+
+        public async Task<bool> RemoveTermin(int v)
+        {
+            Termin t = await userrepo.GetByIdAsync(v);
+            try
+            {
+                userrepo.DeleteUser(t);
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
         }
 
         public Task<bool> validateUser(string id)
