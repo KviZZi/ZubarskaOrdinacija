@@ -1,0 +1,4 @@
+C:\Users\KviZZi\Desktop\simplTask\ZubarskaOrdinacija\ZubarskaOrdinacijaProj\Database\bin\Debug\netcoreapp3.1\Common.dll
+C:\Users\KviZZi\Desktop\simplTask\ZubarskaOrdinacija\ZubarskaOrdinacijaProj\Database\obj\Debug\netcoreapp3.1\Database.csprojAssemblyReference.cache
+C:\Users\KviZZi\Desktop\simplTask\ZubarskaOrdinacija\ZubarskaOrdinacijaProj\Database\obj\Debug\netcoreapp3.1\Database.AssemblyInfoInputs.cache
+C:\Users\KviZZi\Desktop\simplTask\ZubarskaOrdinacija\ZubarskaOrdinacijaProj\Database\obj\Debug\netcoreapp3.1\Database.AssemblyInfo.cs

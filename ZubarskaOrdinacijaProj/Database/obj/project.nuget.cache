@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Z7quWtc3s+E7tMmJumFfAS2UKlEaIhsaGItid0Y/l8GrA0iK5E0EaMta+0Rm/P00gqQM8gbN7sfDC39Zet0dCQ==",
+  "dgSpecHash": "GyNgyiSa/7DjvgEuOJTBaEZnHgc3aLhGJyTso1OWyPFezF1F0C2srq/tC38qS9PKFf7ldIHfZTWMrE7hxq+TIg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\KviZZi\\Desktop\\simplTask\\ZubarskaOrdinacija\\ZubarskaOrdinacijaProj\\ZubarskaOrdinacijaProj\\ZubarskaOrdinacijaProj.csproj",
+  "projectFilePath": "C:\\Users\\KviZZi\\Desktop\\simplTask\\ZubarskaOrdinacija\\ZubarskaOrdinacijaProj\\Database\\Database.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\KviZZi\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
