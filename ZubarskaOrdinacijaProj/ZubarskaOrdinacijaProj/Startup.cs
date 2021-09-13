@@ -1,4 +1,6 @@
+using Common;
 using Database;
+using Database.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -30,7 +32,8 @@ namespace ZubarskaOrdinacijaProj
             services.AddCors();
             services.AddControllers();
             services.AddDbContext<DataBaseContext>(options => options.UseSqlServer(Configuration.GetConnectionString("ProjectContext")));
-            //Incident Service
+            //
+            services.AddScoped<ITerminRepository, TerminiRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
