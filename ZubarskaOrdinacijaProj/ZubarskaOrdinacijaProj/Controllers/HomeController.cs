@@ -75,5 +75,18 @@ namespace ZubarskaOrdinacijaProj.Controllers
                 return BadRequest();
             }
         }
+
+        [HttpPost("GetAllTermine")]
+        public async Task<ActionResult> GetAllTermini()
+        {
+            try
+            {
+                return Ok(await serviceTermin.GetAll());
+            }
+            catch
+            {
+                return BadRequest();
+            }
+        }
     }
 }

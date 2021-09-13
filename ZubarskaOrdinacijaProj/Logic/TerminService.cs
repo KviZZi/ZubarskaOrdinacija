@@ -22,9 +22,9 @@ namespace Logic
             throw new NotImplementedException();
         }
 
-        public Task<IEnumerable<Termin>> GetAll()
+        public async Task<IEnumerable<Termin>> GetAll()
         {
-            throw new NotImplementedException();
+            return await userrepo.GetAllAsync();
         }
 
         public Task<IEnumerable<string>> GetAllIds()
