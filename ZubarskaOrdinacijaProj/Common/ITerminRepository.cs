@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Common
 {
-    public interface IUserRepository : IRepositoryBase<Termin>
+    public interface ITerminRepository : IRepositoryBase<Termin>
     {
         Task<IEnumerable<Termin>> GetAllAsync();
 
