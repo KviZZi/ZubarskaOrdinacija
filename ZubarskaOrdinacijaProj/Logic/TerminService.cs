@@ -9,7 +9,7 @@ namespace Logic
 {
     public class TerminService : ITerminService
     {
-        public Task<Termin> CreateUser(UserDTO usr)
+        public Task<Termin> CreateUser(Termin usr)
         {
             throw new NotImplementedException();
         }

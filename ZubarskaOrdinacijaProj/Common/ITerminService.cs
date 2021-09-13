@@ -8,7 +8,7 @@ namespace Common
 {
     public interface ITerminService
     {
-        Task<Termin> CreateUser(UserDTO usr);
+        Task<Termin> CreateUser(Termin usr);
 
         Task<IEnumerable<Termin>> GetAll();
 
