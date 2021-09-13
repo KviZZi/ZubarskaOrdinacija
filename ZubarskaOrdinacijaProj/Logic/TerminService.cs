@@ -9,6 +9,13 @@ namespace Logic
 {
     public class TerminService : ITerminService
     {
+        private readonly ITerminRepository userrepo;
+
+        public TerminService(ITerminRepository repo)
+        {
+            this.userrepo = repo;
+        }
+
         public Task<Termin> CreateUser(Termin usr)
         {
             throw new NotImplementedException();

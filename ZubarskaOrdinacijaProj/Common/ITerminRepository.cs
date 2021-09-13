@@ -10,9 +10,9 @@ namespace Common
     {
         Task<IEnumerable<Termin>> GetAllAsync();
 
-        Task<Termin> GetByIdAsync(string userID);
+        Task<Termin> GetByIdAsync(int userID);
 
-        Task<Termin> GetWithDetailsAsync(string userID);
+        Task<Termin> GetWithDetailsAsync(int userID);
 
         void CreateUser(Termin user);
 

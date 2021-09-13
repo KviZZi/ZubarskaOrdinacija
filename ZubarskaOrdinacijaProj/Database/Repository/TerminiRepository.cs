@@ -1,7 +1,9 @@
 ﻿using Common;
 using Common.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -15,32 +17,36 @@ namespace Database.Repository
 
         public void CreateUser(Termin user)
         {
-            throw new NotImplementedException();
+            Create(user);
         }
 
         public void DeleteUser(Termin user)
         {
-            throw new NotImplementedException();
+            Delete(user);
         }
 
-        public Task<IEnumerable<Termin>> GetAllAsync()
+        public async Task<IEnumerable<Termin>> GetAllAsync()
         {
-            throw new NotImplementedException();
+            return await FindAll()
+       .OrderBy(usr => usr.Id)
+       .ToListAsync();
         }
 
-        public Task<Termin> GetByIdAsync(string userID)
+        public async Task<Termin> GetByIdAsync(int userID)
         {
-            throw new NotImplementedException();
+            return await FindByCondition(usr => usr.Id.Equals(userID))
+           .FirstOrDefaultAsync();
         }
 
-        public Task<Termin> GetWithDetailsAsync(string userID)
+        public async Task<Termin> GetWithDetailsAsync(int userID)
         {
-            throw new NotImplementedException();
+            return await FindByCondition(usr => usr.Id.Equals(userID))
+            .FirstOrDefaultAsync();
         }
 
         public void UpdateUser(Termin user)
         {
-            throw new NotImplementedException();
+            Update(user);
         }
     }
 }

@@ -1,0 +1,9 @@
+C:\Users\KviZZi\Desktop\simplTask\ZubarskaOrdinacija\ZubarskaOrdinacijaProj\Common\bin\Debug\netcoreapp3.1\Common.deps.json
+C:\Users\KviZZi\Desktop\simplTask\ZubarskaOrdinacija\ZubarskaOrdinacijaProj\Common\bin\Debug\netcoreapp3.1\Common.dll
+C:\Users\KviZZi\Desktop\simplTask\ZubarskaOrdinacija\ZubarskaOrdinacijaProj\Common\bin\Debug\netcoreapp3.1\Common.pdb
+C:\Users\KviZZi\Desktop\simplTask\ZubarskaOrdinacija\ZubarskaOrdinacijaProj\Common\obj\Debug\netcoreapp3.1\Common.csprojAssemblyReference.cache
+C:\Users\KviZZi\Desktop\simplTask\ZubarskaOrdinacija\ZubarskaOrdinacijaProj\Common\obj\Debug\netcoreapp3.1\Common.AssemblyInfoInputs.cache
+C:\Users\KviZZi\Desktop\simplTask\ZubarskaOrdinacija\ZubarskaOrdinacijaProj\Common\obj\Debug\netcoreapp3.1\Common.AssemblyInfo.cs
+C:\Users\KviZZi\Desktop\simplTask\ZubarskaOrdinacija\ZubarskaOrdinacijaProj\Common\obj\Debug\netcoreapp3.1\Common.csproj.CoreCompileInputs.cache
+C:\Users\KviZZi\Desktop\simplTask\ZubarskaOrdinacija\ZubarskaOrdinacijaProj\Common\obj\Debug\netcoreapp3.1\Common.dll
+C:\Users\KviZZi\Desktop\simplTask\ZubarskaOrdinacija\ZubarskaOrdinacijaProj\Common\obj\Debug\netcoreapp3.1\Common.pdb

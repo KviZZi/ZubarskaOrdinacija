@@ -1,6 +1,7 @@
 using Common;
 using Database;
 using Database.Repository;
+using Logic;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -13,6 +14,7 @@ using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+
 using System.Threading.Tasks;
 
 namespace ZubarskaOrdinacijaProj
@@ -34,6 +36,10 @@ namespace ZubarskaOrdinacijaProj
             services.AddDbContext<DataBaseContext>(options => options.UseSqlServer(Configuration.GetConnectionString("ProjectContext")));
             //
             services.AddScoped<ITerminRepository, TerminiRepository>();
+            services.AddScoped<ITerminService, TerminService>();
+
+            services.AddScoped<IZubarRepository, ZubarRepository>();
+            services.AddScoped<IPacijentRepository, PacijentRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
